@@ -37,6 +37,8 @@ public class MainContainer {
             AgentController eventCoordinator = mainContainer.createNewAgent("EventCoordinatorAgent", EventCoordinatorAgent.class.getName(), null);
             eventCoordinator.start();
 
+
+
         } catch (Exception e) {
             e.printStackTrace();
         }
