@@ -1,9 +1,10 @@
 package App;
 
+import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
 import jade.lang.acl.ACLMessage;
 
-public class AuthorAgent extends jade.core.Agent {
+public class AuthorAgent extends Agent {
 
     @Override
     protected void setup() {

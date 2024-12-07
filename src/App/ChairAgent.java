@@ -1,10 +1,11 @@
 package App;
 
 import jade.core.AID;
+import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
 import jade.lang.acl.ACLMessage;
 
-public class ChairAgent extends jade.core.Agent {
+public class ChairAgent extends Agent {
 
     @Override
     protected void setup() {
